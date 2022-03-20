@@ -1,0 +1,49 @@
+body {background-color: #ffffff;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  background-color: #800000;
+  color: #FFD700;
+}
+
+h1 {
+  line-height: 80%;
+  padding-top: .7em;
+  padding-bottom: .2em;
+  padding-left: 10em;
+  }
+
+
+nav {
+  font-weight: bold;
+  float: right;
+  display:inline;
+  width: 180px;
+  color: #FFD700;
+
+}
+nav ul{
+  list-style-type: none;
+}
+
+.why {
+  font-size: 30px;
+}
+
+main {
+
+  padding-top: 1em;
+  padding-left: 1em;
+  background-color: #FFFFFF;
+  margin-right: 150px;
+
+}
+
+#wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #800000;
+box-shadow: 3px 5px 3px 3px #800000 ;
+}
