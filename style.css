@@ -8,10 +8,12 @@ header {
 }
 
 h1 {
+  text-align: center;
   line-height: 80%;
-  padding-top: .7em;
-  padding-bottom: .2em;
-  padding-left: 10em;
+  padding-top: 2%;
+  padding-bottom: .5%;
+  padding-left: auto;
+  padding-right: auto;
   }
 
 
@@ -21,10 +23,13 @@ nav {
   display:inline;
   width: 180px;
   color: #FFD700;
-
+  line-height: 50px;
 }
 nav ul{
   list-style-type: none;
+}
+nav a {
+  text-decoration: none;
 }
 
 .why {
@@ -46,4 +51,13 @@ main {
   margin-right: auto;
   background-color: #800000;
 box-shadow: 3px 5px 3px 3px #800000 ;
+}
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
