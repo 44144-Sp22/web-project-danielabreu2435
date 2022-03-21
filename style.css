@@ -109,8 +109,11 @@ main li{
   }
 main a {
   text-decoration: none;
-  color: inherit;
+  color: #888888;
   line-height: 2%;
+}
+.spanG {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1024px) {
