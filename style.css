@@ -30,7 +30,7 @@ nav {
 nav ul{
   list-style-type: none;
 }
-nav a { width: 180px;
+nav a {
   text-decoration: none;
   border-bottom: 2px solid #888888;
 }
@@ -38,7 +38,7 @@ nav a:link{color: #FFD700}
 nav a:visited{color: #9b870c;}
 nav a:hover{color: #ffff00;}
 
-.why {
+h2, h3 {
   font-size: 30px;
 }
 
@@ -85,3 +85,18 @@ footer {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+main ul{list-style-type: none;}
+main li{
+		display: block;
+	  width: 225px;
+	  padding-bottom: 10px;
+	  margin: 15px;
+	  text-align: center;
+    background-color: #888888;
+  }
+  #producttext {
+    float: right;
+    padding: 10px;
+    line-height: 100px;
+  }
